@@ -26,9 +26,9 @@ function App() {
         <ambientLight />
         <OrbitControls />
 
-        <Suspense fallback={null}>
+        
           <Dino />
-        </Suspense>
+      
       </Canvas>
     </div>
   );
